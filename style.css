@@ -3,8 +3,8 @@
 }
 body{
     overflow-x: hidden;
-    background: linear-gradient(50deg,#FAAB78 50%,#FFDCA9 50%) no-repeat;
-    color: black;
+    background: linear-gradient(50deg,#222222 50%,#434242 50%) no-repeat;
+    color: white;
     height: 100vh;
 }
 label {
