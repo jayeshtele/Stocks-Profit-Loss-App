@@ -3,8 +3,9 @@
 }
 body{
     overflow-x: hidden;
-    background: #1A120B;
-    color: white;
+    background: linear-gradient(50deg,#2D033B 50%,#810CA8 50%) no-repeat;
+    color: black;
+    height: 100vh;
 }
 label {
     font-size: 1.1em;
