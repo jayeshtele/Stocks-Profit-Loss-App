@@ -1,0 +1,35 @@
+:root {
+    font-size: 16px;
+}
+body{
+    overflow-x: hidden;
+    background: #1A120B;
+    color: white;
+}
+label {
+    font-size: 1.1em;
+}
+
+input {
+    padding: 10px;
+}
+
+tr th,td{
+    border: 1px solid black;
+    padding: 5px;
+}
+td{
+    text-align: center;
+}
+th{
+    background: rgb(130, 239, 130);
+    color: black;
+}
+td{
+    background: #F5EA5A;
+    color: black;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
