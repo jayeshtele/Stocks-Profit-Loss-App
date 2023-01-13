@@ -1,12 +1,13 @@
 :root {
     font-size: 16px;
 }
-body{
+
+body {
     overflow-x: hidden;
-    background: linear-gradient(50deg,#222222 50%,#434242 50%) no-repeat;
+    background: linear-gradient(50deg, #222222 50%, #434242 50%) no-repeat;
     color: white;
-    height: 100vh;
 }
+
 label {
     font-size: 1.1em;
 }
@@ -15,22 +16,33 @@ input {
     padding: 10px;
 }
 
-tr th,td{
+tr th,
+td {
     border: 1px solid black;
     padding: 5px;
 }
-td{
+
+td {
     text-align: center;
 }
-th{
+
+th {
     background: rgb(130, 239, 130);
     color: black;
 }
-td{
+
+td {
     background: #F5EA5A;
     color: black;
 }
-.row{
+
+.row {
     display: flex;
     align-items: center;
+}
+
+@media (min-width:320px) {
+    body {
+        height: 110vh;
+    }
 }
