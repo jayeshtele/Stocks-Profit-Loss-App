@@ -43,6 +43,11 @@ td {
 
 @media (min-width:320px) {
     body {
-        height: 110vh;
+        height: 107vh;
+    }
+}
+@media (min-width:992px) {
+    body {
+        height: 100vh;
     }
 }
