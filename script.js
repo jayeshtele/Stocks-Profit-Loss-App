@@ -12,11 +12,11 @@ tellme.addEventListener("click", () => {
 
     if (sp > bp) {
         let profit = (sp - bp) * qty;
-        let profitPercent = (profit / bp) * 100;
+        let profitPercent = ((sp - bp) / bp) * 100;
         output.innerHTML = `Hey the Profit is ${profit} Rupees which is ${Math.ceil(profitPercent)}% from buying point`;
     } else if (bp > sp) {
         let loss = (bp - sp) * qty;
-        let lossPercent = (loss / bp) * 100;
+        let lossPercent = ((bp - sp) / bp) * 100;
         output.innerHTML = `Hey the Loss is ${loss} Rupees which is ${Math.ceil(lossPercent)}% from buying point`;
 
     } else {
